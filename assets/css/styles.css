@@ -1,0 +1,42 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    color: rgb(5, 5, 77);
+}
+
+nav ul li{
+    display: inline;
+    color: blueviolet;
+}
+
+section:nth-of-type(1) footer{
+    text-align: center;
+}
+
+section:nth-of-type(1) ul li{
+    list-style: none;
+    display: inline;
+}
+
+section:nth-of-type(1) img{
+    width: 50px; height: 50px;
+    opacity: 0.5;
+}
+
+section:nth-of-type(1) img:hover{
+    width: 75px; height: 75px;
+    opacity: 1;
+    margin: 20px;
+    transition: 3s;
+}
+
+section:nth-of-type(2) .multicol img{
+    width: 100%;
+}
+
+section:nth-of-type(2) img{
+
+}
+.multicol{
+    column-count: 3;
+}

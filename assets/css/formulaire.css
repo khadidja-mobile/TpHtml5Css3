@@ -1,0 +1,15 @@
+.bouton_vert{
+    background: green;
+    border: 0;
+}
+
+input[type="text"] + label{
+    color: #fff;
+}
+
+body{ font-size: 20px;}
+
+input[type="submit"]{
+    box-shadow: 2px 2px 2px #ccc;
+    padding: 4px;
+}
